@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Jobs";
+}
+
+<hr/>
+@foreach (var item in (List<string>)ViewBag.List)
+{
+    <li>
+        @item
+    </li>
+}
+

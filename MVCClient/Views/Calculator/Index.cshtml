@@ -1,0 +1,21 @@
+﻿
+@{ ViewBag.Title = "Index"; }
+<hr />
+@using (Html.BeginForm())
+{
+    <input type="number" name="num1" required min="1" />
+    <input type="number" name="num2" required min="1" />
+    <hr/>
+    <div>
+        <input type="submit" value="Add" name="operation" />
+        <input type="submit" value="Sub" name="operation" />
+        <input type="submit" value="Multiply" name="operation" />
+        <input type="submit" value="Divide" name="operation" />
+    </div>
+}
+
+@if (ViewBag.Result > -1)
+{
+    <h4> Result: @ViewBag.Result</h4>
+}
+

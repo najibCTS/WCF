@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3acc9edb-62c3-4d5d-a20b-222649f4d72b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/21_WCF_Assignment_01/JobService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="JobService.xsd" MetadataType="Schema" ID="168e453f-b348-4de7-88e7-74ea92da8647" SourceId="1" SourceUrl="http://localhost/21_WCF_Assignment_01/JobService.svc?xsd=xsd1" />
+    <MetadataFile FileName="JobService.disco" MetadataType="Disco" ID="9f1f4576-8752-442b-9c88-3ef42e7d4ffd" SourceId="1" SourceUrl="http://localhost/21_WCF_Assignment_01/JobService.svc?disco" />
+    <MetadataFile FileName="JobService1.xsd" MetadataType="Schema" ID="1c0c13fe-8759-4f09-84e7-aa8950576f62" SourceId="1" SourceUrl="http://localhost/21_WCF_Assignment_01/JobService.svc?xsd=xsd2" />
+    <MetadataFile FileName="JobService.wsdl" MetadataType="Wsdl" ID="7c09dc48-180c-4f7b-b370-15c12044245c" SourceId="1" SourceUrl="http://localhost/21_WCF_Assignment_01/JobService.svc?wsdl" />
+    <MetadataFile FileName="JobService2.xsd" MetadataType="Schema" ID="b0adfe42-54ca-415c-9e97-ceb6e9222ff3" SourceId="1" SourceUrl="http://localhost/21_WCF_Assignment_01/JobService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

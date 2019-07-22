@@ -1,0 +1,18 @@
+﻿
+@{ ViewBag.Title = "Index"; }
+<hr />
+@using (Html.BeginForm())
+{
+    <input type="text" name="name" required placeholder="Enter your name" />
+    <hr />
+    <div>
+        <input type="submit" value="http" name="protocol" />
+        <input type="submit" value="tcp" name="protocol" />
+    </div>
+}
+
+@if (ViewBag.Result !=null)
+{
+    <h4>@ViewBag.Result</h4>
+}
+

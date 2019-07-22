@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<hr/>
+<input type="button" value="Get Jobs" onclick="location.href='@Url.Action("Jobs", "Home")'" />
+
+<hr />
+@using (Html.BeginForm("JobsByRole", "Home", FormMethod.Post))
+{
+
+    <input type="text" name="role" required />
+    <input type="submit" value="Get Jobs Role" />
+}
+
